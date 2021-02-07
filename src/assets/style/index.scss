@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url("./assets/fonts/Poppins-Medium.ttf") format('truetype');
+};
+@font-face {
+  font-family: 'Twenty';
+  src: url("./assets/fonts/Twentytwelve_Sans_C.otf") format('truetype');
+};
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+    font-size: 10px!important;
+  }
+
+body {
+    background : linear-gradient(to right, #F0A8DC 0%, 3.030303120613098%, #FFBACA 6.060606241226196%, 13.203462958335876%, #FDDACE 20.346319675445557%, 36.147186160087585%, #EDD3E5 51.948052644729614%, 71.21212184429169%, #FFB8BC 90.47619104385376%, 95.23809552192688%, #FEA3C4 100%);
+    font-family: Twenty, sans-serif;
+    display: grid;
+    grid-template-areas: 
+    header,
+    content,
+    footer,
+
+}
+
+@import './mainPage';
+@import './footer';

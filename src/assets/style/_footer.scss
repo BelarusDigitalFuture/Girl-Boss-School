@@ -1,0 +1,32 @@
+.footer {
+    grid-area: footer;
+    height: 10rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .logo-block {
+        .logo {
+            height: 10rem;
+
+        }
+    }
+
+    .social-link {
+        display: flex;
+        align-items: center;
+        .icon {
+            width: 4rem;
+            height: 4rem;
+            cursor: pointer;
+            margin-right: 1rem;
+            fill: #FFBACA;
+
+            &:hover {
+                transform: all 2s linear;
+                fill: #FDDACE;
+            }
+        }
+    }
+}
